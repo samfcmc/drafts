@@ -1,14 +1,27 @@
 React Native
 =========================
 
-React Native is a framework created by Facebook to develop mobile apps.
-bla bla bla
+# Introduction
+Developing mobile apps for multiple platforms can imply an huge effort since each platform has its own APIs and tools.
+If we want our apps to reach a good portion of the market we end up developing for Android and iOS. Instead of having just one team we have at least two, one for each platform.
 
-The best of hybrid and native
+Instead of using the native APIs we can use alternative solution such as hybrid frameworks like [ionic](http://ionicframework.com/) allowing us to write apps using web technologies such as HTML, CSS and JS. The framework generate packages which we can upload to [Play Store](https://play.google.com) and [App Store](https://itunes.apple.com).
+Why developers write native apps instead of hybrid?
+The idea of having only one code base for multiple platforms seems appealing.
+However, each platform has its own characteristics. Users of each one expect different things.
+Also, performance is an issue in hybrid apps.
+This is why most apps are still native.
+Mark Zuckerberg said: ["Our Biggest Mistake Was Betting Too Much On HTML5"](http://techcrunch.com/2012/09/11/mark-zuckerberg-our-biggest-mistake-with-mobile-was-betting-too-much-on-html5/).
+
+What if we could have the best of native and hybrid?
+An user interface designed for each platform and one code base that can work on both platforms?
+[React native](https://facebook.github.io) is a framework created by Facebook which allows to develop mobile apps using web technologies but the UI is designed specifically for each platform (iOS and Android).
+It was built on top of [ReactJS](https://facebook.github.io/react/).
+
 
 # Requirements
 In order to use `react-native` you will need the following:
-* [NodeJS]() and [NPM]()
+* [NodeJS](https://nodejs.org) and [NPM](https://www.npmjs.com)
 * Android SDK to be able to run the Android version
 * XCode to be able to run the iOS version
 
@@ -159,3 +172,5 @@ Try to disconnect the USB cable and make some changes to `index.android.js`.
 Your app should reload JS automatically.
 Running your app on your device without an USB cable...
 How cool is that? :)
+
+If you enjoyed this post try to build something using React Native.
