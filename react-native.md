@@ -162,8 +162,7 @@ You can simulate pressing such button using `adb` command:
 ```shell
 adb shell input keyevent 82
 ```
-
-![Developer Menu](https://raw.githubusercontent.com/samfcmc/drafts/master/images/Photos/dev_menu.png)
+<img src="https://raw.githubusercontent.com/samfcmc/drafts/master/images/Photos/dev_menu.png" width="300" height="500" />
 
 When the Developer menu appears just press `Enable Live Reload`.
 That's it, edit `index.android.js` file and save it. The JS will be reloaded automatically.
@@ -172,7 +171,7 @@ One more cool thing...
 You can have live reloading even if yo disconnect the USB cable from your computer!
 Open Developer Menu and touch `Dev Settings`.
 
-![Dev settings](https://raw.githubusercontent.com/samfcmc/drafts/master/images/Photos/dev_options.png)
+<img src="https://raw.githubusercontent.com/samfcmc/drafts/master/images/Photos/dev_options.png" width="300" height="500" />
 
 Then, touch `Debug server host & port for device`
 Make sure your computer and mobile device are connected to the same WiFi network.
