@@ -54,6 +54,9 @@ MyProject
 ```
 
 Inside `android` and `ios` folders you have an Android and iOS projects which you can open with [Android Studio]() and [XCode](), respectively.
+If you still need to write native code you can. You can even call that native code in your react code. See the links below:
+* [Native Modules (iOS)](https://facebook.github.io/react-native/docs/native-modules-ios.html#content)
+* [Native Modules (Android)](https://facebook.github.io/react-native/docs/native-modules-android.html#content)
 
 You can start by looking at `index.ios.js` and `index.android.js` files.
 These files are the starting point of your app.
@@ -116,7 +119,7 @@ AppRegistry.registerComponent('MyProject', () => MyProject);
 
 If you never worked with ReactJS you should be looking at the file like "WTF":
 
-![wtf](http://i.imgur.com/EQjisp4.jpg)
+![wtf](http://i.imgur.com/M4iIlOy.jpg)
 
 This is a special syntax that `React` uses which is `JSX`. Don't worry about how to compile this syntax to `Javascript`. React native will handle it for you.
 
@@ -152,18 +155,26 @@ adb reverse tcp:8081 tcp:8081
 
 Note: if you don't have `adb` command available you must add `<Android SDK path>/platform-tools` to your `PATH` environment variable.
 
-Now, without closing the app on your device open the Developer options. To do that you need to press the menu button on your device or shake your device in case you don't have a menu button.
+Now, without closing the app on your device open the Developer options.
+
+To do that you need to press the menu button on your device or shake your device in case you don't have a menu button.
 You can simulate pressing such button using `adb` command:
 ```shell
 adb shell input keyevent 82
 ```
+
+![Developer Menu](https://raw.githubusercontent.com/samfcmc/drafts/master/images/Photos/dev_menu.png)
 
 When the Developer menu appears just press `Enable Live Reload`.
 That's it, edit `index.android.js` file and save it. The JS will be reloaded automatically.
 
 One more cool thing...
 You can have live reloading even if yo disconnect the USB cable from your computer!
-Open Developer Menu and touch `Dev Settings`. Then, touch `Debug server host & port for device`
+Open Developer Menu and touch `Dev Settings`.
+
+![Dev settings](https://raw.githubusercontent.com/samfcmc/drafts/master/images/Photos/dev_options.png)
+
+Then, touch `Debug server host & port for device`
 Make sure your computer and mobile device are connected to the same WiFi network.
 Type the IP address of your computer and use 8081 as the port number:
 `<Your computer's IP>:8081`
@@ -174,3 +185,4 @@ Running your app on your device without an USB cable...
 How cool is that? :)
 
 If you enjoyed this post try to build something using React Native.
+I am going to explore a bit more :)
