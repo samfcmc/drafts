@@ -15,7 +15,7 @@ Mark Zuckerberg said: ["Our Biggest Mistake Was Betting Too Much On HTML5"](http
 
 What if we could have the best of native and hybrid?
 An user interface designed for each platform and one code base that can work on both platforms?
-[React native](https://facebook.github.io) is a framework created by Facebook which allows to develop mobile apps using web technologies but the UI is designed specifically for each platform (iOS and Android).
+[React native](https://facebook.github.io/react-native) is a framework created by Facebook which allows to develop mobile apps using web technologies but the UI is designed specifically for each platform (iOS and Android).
 It was built on top of [ReactJS](https://facebook.github.io/react/).
 
 
